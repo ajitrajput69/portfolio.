@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ajit Rajput | Portfolio</title>
+
+<link rel="stylesheet" href="style.css">
+
+<!-- EmailJS -->
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+
+<!-- Particles -->
+<script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+
+</head>
+
+<body>
+
+<div id="particles-js"></div>
+
+<header>
+    <nav class="navbar">
+        <h2>Ajit<span>.</span></h2>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button id="themeToggle">🌙</button>
+    </nav>
+</header>
+
+<section id="home" class="hero">
+    <h1>Hi, I'm <span>Ajit Rajput</span></h1>
+    <h3 id="typing"></h3>
+    <a href="resume.pdf" download class="btn">Download Resume</a>
+</section>
+
+<section id="about" class="glass">
+    <h2>About Me</h2>
+    <p>
+        I am a Computer Science Engineering student skilled in C, C++, Java, Python,
+        and Data Structures & Algorithms. Passionate about solving real-world problems.
+    </p>
+</section>
+
+<section id="projects">
+    <h2>My Projects</h2>
+
+    <div class="project-grid">
+
+        <div class="card">
+            <h3>Photocatalytic Paint</h3>
+            <p>Air pollution reduction using TiO₂-based coatings.</p>
+            <a href="ppt final (1).pptx" target="_blank">View PPT</a>
+        </div>
+
+        <div class="card">
+            <h3>Coursera Certificate</h3>
+            <p>Chemistry Course Completion</p>
+            <a href="Coursera 69MDM54F8FJ5.pdf" target="_blank">View Certificate</a>
+        </div>
+
+        <div class="card">
+            <h3>Project Preview</h3>
+            <img src="project.jpg" alt="Project Image">
+        </div>
+
+    </div>
+
+    <h2>🚀 My GitHub Work</h2>
+    <div id="repo-container"></div>
+</section>
+
+<section id="contact" class="glass">
+    <h2>Contact Me</h2>
+
+    <form id="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Message"></textarea>
+        <button type="submit">Send</button>
+    </form>
+
+    <p id="msg"></p>
+</section>
+
+<footer>
+    <p>© 2026 Ajit Rajput</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
